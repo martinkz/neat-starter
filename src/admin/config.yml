@@ -32,7 +32,7 @@ collections:
         options: ["Tags", "created", "from", "config.yml"]
   - label: "Settings"
     name: "settings"
-      preview: true
+    preview: true
     files:
       - label: "Navigation"
         name: "items"
