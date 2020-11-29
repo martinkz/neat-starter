@@ -16,7 +16,6 @@ collections:
     name: "blog"
     folder: "src/posts"
     create: true
-    editor:
     preview: true
     preview_path: blog/{{slug}}
     fields:
@@ -33,7 +32,6 @@ collections:
         options: ["Tags", "created", "from", "config.yml"]
   - label: "Settings"
     name: "settings"
-    editor:
       preview: true
     files:
       - label: "Navigation"
